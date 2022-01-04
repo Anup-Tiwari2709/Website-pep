@@ -1,0 +1,72 @@
+html{
+      font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+header>h1{
+    font-weight: 400;
+}
+header{
+        display: flex;
+         justify-content:space-between; 
+         margin:0 3rem;
+         /* just go weschool website and try hint and trial method;  */
+}
+ li{
+     list-style: none;
+     font-size:1.5rem;
+     /* remove the dots and numbering; */
+     /* in html, font size = 16px;
+     1 Rem = 16px;  pixels aapki screen size ke hisaab se chhota bada nahi ho sakta lekin Rem ho sakta hai jab aap mobile mein dekh rahe ho toh yeh chhota ho jayega as compared to laptop isse hi Responsive kehte hai joh screen ke hisaab se adjust ho jaye*/
+ } 
+ /* class ko use karne ke liye dot ka use karte hai aur id ko use karne ke liye # ka use karte hai */
+ ul{
+     display: flex;
+     justify-content: space-between;
+     }
+
+ nav{
+     position: relative;
+     top:1rem;
+      width: 22rem;
+      /* rem is type of unit like cm, meter */
+ }
+ .showcase_img{
+     width: 95vw;
+     margin: 1rem;
+     /* view width = it adjust the size of image as per screen; */
+ }
+
+ article{
+     display: flex;
+     margin: 1.5rem;
+ }
+
+ .container{
+     text-align:center;
+     margin-right: 2rem;
+     padding: 1rem;
+ }
+
+ p{
+     font-size: 1.5rem;
+ }
+
+ footer{
+     background-color: black;
+     color:white;
+     display: flex;
+     justify-content: center;
+     /* we use justify-content to align horizontally
+     we use align-items to align vertically */
+     height: 4rem;
+     font-size: 1.5rem;
+     align-items:center;
+ }
+
+ a{
+     text-decoration: none;
+ }
+
+ a:hover{
+     color:red;
+     /* when you move on cursor on HTML CSS and Javascript it colors became red; */
+ }
